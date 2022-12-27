@@ -22,7 +22,6 @@ $urlEmbed = 'https://api.giphy.com/v1/gifs/trending?api_key=pLURtkhVrUXr3KG25Gy5
 
     foreach($result['data'] as $get_result){?>
         <img src="<?php echo $get_result['images']['480w_still']['url'] .'<br>' ;?>" width="30px" height="30">
-        
     <?php }?>
 
 <?php get_footer();?>
